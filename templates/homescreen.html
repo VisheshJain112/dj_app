@@ -6,12 +6,30 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
+  <link rel="apple-touch-icon" sizes="57x57" href="{% static 'favicon/apple-icon-57x57.png' %}">
+  <link rel="apple-touch-icon" sizes="60x60" href="{% static 'favicon/apple-icon-60x60.png' %}">
+  <link rel="apple-touch-icon" sizes="72x72" href="{% static 'favicon/apple-icon-72x72.png' %}">
+  <link rel="apple-touch-icon" sizes="76x76" href="{% static 'favicon/apple-icon-76x76.png' %}">
+  <link rel="apple-touch-icon" sizes="114x114" href="{% static 'favicon/apple-icon-114x114.png' %}">
+  <link rel="apple-touch-icon" sizes="120x120" href="{% static 'favicon/apple-icon-120x120.png' %}">
+  <link rel="apple-touch-icon" sizes="144x144" href="{% static 'favicon/apple-icon-144x144.png' %}">
+  <link rel="apple-touch-icon" sizes="152x152" href="{% static 'favicon/apple-icon-152x152.png' %}">
+  <link rel="apple-touch-icon" sizes="180x180" href="{% static 'favicon/apple-icon-180x180.png' %}">
+  <link rel="icon" type="image/png" sizes="192x192"  href="{% static 'favicon/android-icon-192x192.png' %}">
+  <link rel="icon" type="image/png" sizes="32x32" href="{% static 'favicon/favicon-32x32.png' %}">
+  <link rel="icon" type="image/png" sizes="96x96" href="{% static 'favicon/favicon-96x96.png' %}">
+  <link rel="icon" type="image/png" sizes="16x16" href="{% static 'favicon/favicon-16x16.png' %}">
+  <link rel="manifest" href="{% static 'favicon/manifest.json' %}">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="{% static 'favicon/ms-icon-144x144.png' %}">
   <meta name="keywords" content="global, template, html, sass, jquery">
   <meta name="author" content="Vishesh Jain">
   <link rel="stylesheet" href="{% static 'homescreen/assets/css/main.css' %}">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
   <link rel="stylesheet" href="{% static 'timeline/style.css' %}">
+  <link rel="manifest" href="{% static 'index_home/favicon_io/site.webmanifest' %}">
+  <link rel="stylesheet" href="{% static 'mainhome/assets/css/main.css' %}">
+  <link rel="stylesheet" href="{% static 'readbook/style.css' %}">
 </head>
 <body>
 
@@ -135,30 +153,77 @@
             
            
             <div class="about">
-              <div class="about--banner">
-                <h2>We<br>believe in<br>passionate<br>people</h2>
-                <a href="#0">Career
-                  <span>
-                    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
-                    <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
-                      <path d="M870,1167c-34-17-55-57-46-90c3-15,81-100,194-211l187-185l-565-1c-431,0-571-3-590-13c-55-28-64-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z"/>
-                    </g>
-                    </svg>
-                  </span>
-                </a>
-                <img src="{% static 'homescreen/assets/img/about-visual.png' %}" alt="About Us">
-              </div>
-              <div class="about--options">
-                <a href="#0">
-                  <h3>Winners</h3>
-                </a>
-                <a href="#0">
-                  <h3>Philosophy</h3>
-                </a>
-                <a href="#0">
-                  <h3>History</h3>
-                </a>
-              </div>
+              <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+
+              <section class="hero-section">
+                <div class="card-grid">
+                  <a class="card" href="/openbook/ch1">
+                    <div class="card__background" style="background-image: url(https://lh3.googleusercontent.com/MVaIEqmYqn7HSJT5vdYxtTmD_diEw_bk0X0Wby2Y5ty_eUyXSarGdwixYgLWrb3-GdqWqjqjmJb7VG0V-CfDZQNKRyplaq0ay9nvt1Gv0Na_XKndSXnrmcx6NYS9DiwXCjavoSMdaw=w2400)"></div>
+                    <div class="card__content">
+                      <p class="card__category">Chapter - 1</p>
+                      <h3 class="card__heading">The Signals of Universe</h3>
+                    </div>
+                  </a>
+                  <a class="card" href="#">
+                    <div class="card__background" style="background-image: url(https://lh3.googleusercontent.com/SRzZLSdxCUvA9cGpKWHOiZEMiL04JwVI80b3TpNAfQg-lCT7jlPCpj2AVS8Q5lcu5RfZCP1nQb1omGSbdc0P1CexSknWdLD3ezaSIuM9gFhyIutCwiglc5TJ_z-fw9H0eUwVxHlz9w=w2400)"></div>
+                    <div class="card__content">
+                      <p class="card__category">Chapter -2</p>
+                      <h3 class="card__heading">When The Stars Allign</h3>
+                    </div>
+                  </a>
+                  <a class="card" href="#">
+                    <div class="card__background" style="background-image: url(https://lh3.googleusercontent.com/2VS_Bm5VsFV2ct3ybmtXUeIkrvkPaHrDMYkrB0gaSRRvcaq8vwHxSZyOfvb6tjvWhrHrgwlLeo3CLjq0uCidaj0iwq7cy5gWQZLPtg3ifZmNmcIvWfnABfiZ5S6dHqxN7-lN9yaplg=w2400)"></div>
+                    <div class="card__content">
+                      <p class="card__category">Chapter - 3</p>
+                      <h3 class="card__heading">Moon, you & me</h3>
+                    </div>
+                  
+                  <a class="card" href="#">
+                    <div class="card__background" style="background-image: url(https://lh3.googleusercontent.com/3AMQTYCzZf0XgRVnkqwq0E8lqD-2NzqGWGBhRSKMdPhqJI7AEepOdxa3LQNXgYUqE4gczjq5yeTC30eddUxYbpvHEWubYFfPvvl_ya3NbnHhlb0LP7QTg72_sfGVg8XhjgcDZGKqug=w2400)"></div>
+                    <div class="card__content">
+                      <p class="card__category">Chapter - 4</p>
+                      <h3 class="card__heading">The Lights of Love</h3>
+                    </div>
+                  </a>
+                  <a class="card" href="#">
+                    <div class="card__background" style="background-image: url(https://lh3.googleusercontent.com/kYH7fr1N5bCj5XngDQwjlyBAfBs2-1QgsUKAI8JUCwoDHXvfhSulN8SQMGN8q_sFs9eiZrrNd60U0CX0VtA45TbcWH8yQP0T5cAcy29Oo0bnKJp8au6QBVzaMwkxiySgOzz_qm6kqQ=w2400)"></div>
+                    <div class="card__content">
+                      <p class="card__category">Chapter -5</p>
+                      <h3 class="card__heading">The Vows of Love</h3>
+                    </div>
+                  </a>
+              
+                  <a class="card" href="#">
+                    <div class="card__background" style="background-image: url(https://lh3.googleusercontent.com/BxOV7LAMQ2XsVt5ukiMtKSeR6NW6Q_RYhjc9-pU8TEARmnQt7jnkuP0AqmpS2jEFaMFmXTJEO4XWpIWxE5NM6Frjaj_71ZMrbNitMCHF9mqHlnUZBjFfXWcLAJqyL2jD-lZDsA_l5w=w2400)"></div>
+                    <div class="card__content">
+                      <p class="card__category">Chapter - 6</p>
+                      <h3 class="card__heading">Love from a distance</h3>
+                    </div>
+                  </a>
+                  <a class="card" href="#">
+                    <div class="card__background" style="background-image: url(https://lh3.googleusercontent.com/FgWWZnkC5jfN_AXPwgQ4TZteMidwfZ8hvG4X3qn_GeuvykGH0rNWZi-6PTI_6Mk3N0m0olwkAsScNo28-htGB3ED3cHEl7TLOviOH8moe8f416VmocTkfnsEQo3TLQjYHDQoZsQdnw=w2400)"></div>
+                    <div class="card__content">
+                      <p class="card__category">Chapter - 7</p>
+                      <h3 class="card__heading">The Heart Fog</h3>
+                    </div>
+                  </a>
+                  <a class="card" href="#">
+                    <div class="card__background" style="background-image: url(https://lh3.googleusercontent.com/s24nurm0TSogmpltWC4pXqT-VeS-mt7c_FrCO1u_o5vtQXQIiew9Gju42xTFfVic2j1GWqZaLzG78lWPZba_hY5J-cB7t7buqGENlsxhghL8G7NFJrjRnJyHkYNFWvCXw7mkauPQUA=w2400)"></div>
+                    <div class="card__content">
+                      <p class="card__category">Chapter - 8</p>
+                      <h3 class="card__heading">Hey Sugar, Miss you</h3>
+                    </div>
+                  </a>
+              
+                  <a class="card" href="#">
+                    <div class="card__background" style="background-image: url(https://lh3.googleusercontent.com/AiPBo4L3IOr2N-0kzlFEWsnaVPbt0sGWA00ByVvneaboBYXqDTDyfXhULxgol_EjQlo3xqLVgMvJsi3aa1naapqYjwE2u6iQ7CbsdFSc9XPrnmilCwWzJi66EdgycWE5RAm1eYAv5g=w2400)"></div>
+                    <div class="card__content">
+                      <p class="card__category">Comic Strips</p>
+                      <h3 class="card__heading">112</h3>
+                    </div>
+                  </a>
+                  
+                <div>
             </div>
           </li>
           <li class="l-section section">
