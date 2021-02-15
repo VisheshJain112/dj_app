@@ -10,6 +10,8 @@
   <meta name="keywords" content="global, template, html, sass, jquery">
   <meta name="author" content="Vishesh Jain">
   <link rel="stylesheet" href="{% static 'homescreen/assets/css/main.css' %}">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel="stylesheet" href="{% static 'timeline/style.css' %}">
 </head>
 <body>
 
@@ -40,7 +42,7 @@
           <ul class="side-nav">
             <li class="is-active"><span>Home</span></li>
             <li><span>Works</span></li>
-            <li><span>About</span></li>
+            <li><span>Vision</span></li>
             <li><span>Contact</span></li>
             <li><span>Explore</span></li>
           </ul>
@@ -84,27 +86,27 @@
                   <li class="slider--item slider--item-left">
                     <a href="#0">
                       <div class="slider--item-image">
-                        <img src="{% static 'homescreen/assets/img/work-victory.jpg' %}" alt="Victory">
+                        <img src="{% static 'homescreen/assets/img/victory.png' %}" alt="Victory">
                       </div>
-                      <p class="slider--item-title">Victory</p>
+                      <p class="slider--item-title">Dhananjay's Victories</p>
                       <p class="slider--item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do.</p>
                     </a>
                   </li>
                   <li class="slider--item slider--item-center">
-                    <a href="#0">
+                    <a href="timeline">
                       <div class="slider--item-image">
-                        <img src="{% static 'homescreen/assets/img/work-metiew-smith.jpg' %}" alt="Metiew and Smith">
+                        <img src="{% static 'homescreen/assets/img/timeline.png' %}" alt="Metiew and Smith">
                       </div>
-                      <p class="slider--item-title">Metiew &amp; Smith</p>
+                      <p class="slider--item-title">Dhananjay's Career Timeline </p>
                       <p class="slider--item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do.</p>
                     </a>
                   </li>
                   <li class="slider--item slider--item-right">
                     <a href="#0">
                       <div class="slider--item-image">
-                        <img src="{% static 'homescreen/assets/img/work-alex-nowak.jpg' %}" alt="Alex Nowak">
+                        <img src="{% static 'homescreen/assets/img/ideologies.png' %}" alt="Alex Nowak">
                       </div>
-                      <p class="slider--item-title">Alex Nowak</p>
+                      <p class="slider--item-title">Dhanajay's Ideologies</p>
                       <p class="slider--item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do.</p>
                     </a>
                   </li>
@@ -130,6 +132,8 @@
             </div>
           </li>
           <li class="l-section section">
+            
+           
             <div class="about">
               <div class="about--banner">
                 <h2>We<br>believe in<br>passionate<br>people</h2>
@@ -163,7 +167,7 @@
                 <div class="modal">
                   <div class="modal--information">
                     
-                    <a href="mailto:ouremail@gmail.com">dhananjay_kuvalekar@yahoo.co.in</a>
+                    <a href="mailto:ouremail@gmail.com">dhananjay_kuvalekar@yahoo.com</a>
                     <a href="tel:+148126287560">+919330155862</a>
                   </div>
                   <ul class="modal--options">
@@ -268,14 +272,16 @@
   <ul class="outer-nav">
     <li class="is-active">Home</li>
     <li>Works</li>
-    <li>About</li>
+    <li>Vision</li>
     <li>Contact</li>
     <li>Explore</li>
   </ul>
 </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-2.2.4.min.js"><\/script>')</script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script><script  src="{% static 'timeline/script.js' %}"></script>
+
+<script>window.jQuery || document.write('<script src="{% static "homescreen/assets/js/vendor/jquery-2.2.4.min.js" %}"><\/script>')</script>
 <script src="{% static 'homescreen/assets/js/functions-min.js' %}"></script>
 </body>
 </html>
