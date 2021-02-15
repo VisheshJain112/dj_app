@@ -37,9 +37,12 @@ def index_home(request):
         """
         cont = content.objects.all()
         return render(request,"homescreen.html" , {'cont':cont})
+
 def mainhome(request):
     cont = content.objects.all()
     return render(request,"homepage.html" , {'cont':cont})
+def victory(request):
+    return render(request,"news.html")
 def timeline(request):
     return render(request,'timeline.html')
 def ver(request):
