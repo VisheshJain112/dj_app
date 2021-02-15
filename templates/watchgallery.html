@@ -1,0 +1,83 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Memories</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel="stylesheet" href="{% static 'gallery/style.css' %}">
+<link rel="stylesheet" href="{% static 'btn_ani/style.css' %}">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="apple-touch-icon" sizes="180x180" href="{% static 'index_home/favicon_io/apple-touch-icon.png' %}">
+<link rel="icon" type="image/png" sizes="32x32" href="{% static 'index_home/favicon_io/favicon-32x32.png' %}">
+<link rel="icon" type="image/png" sizes="16x16" href="{% static 'index_home/favicon_io/favicon-16x16.png' %}">
+<link rel="manifest" href="{% static 'index_home/favicon_io/site.webmanifest' %}">
+<!-- Add font awesome icons to buttons  -->
+
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<link rel='stylesheet' href='https://unpkg.com/locomotive-scroll@4.0.6/dist/locomotive-scroll.min.css' />
+<script src='https://unpkg.com/locomotive-scroll@4.0.6/dist/locomotive-scroll.min.js'></script>
+
+<div class='scroll-animations-example' data-scroll-container>
+    <div class='scrollsection' data-scroll-section>
+        <div class='item -normal' data-scroll data-scroll-speed="2">
+            <img class='image' src='https://lh3.googleusercontent.com/8jJ3kl155E1wIGrTrq-9_ffg02XGOI5IQieZW4Gwb63rEzF6X2ZSmAoTgbi7Z3ca-8BUEI8PBnDA4lHwlbwkq_oCy4KffLyI0e7bsJFay83PnF3AOPDIm5tQsb9pkKGKExNsSmYz5A=w2400'>
+        </div>
+        <div class='item -big' data-scroll data-scroll-speed="1">
+            <img class='image' src='https://lh3.googleusercontent.com/SccZzCfju0vikhQnLS5A9xbiRP6p6KhbjF3DmJeCfwmzDdmiZLwVlvuC4dd-8g2q8gkmkcac1E0n0Y3BBmdS6vbbZdw2bcCjOeJZkq1sONX8ozcTwPgHoM4SYBYYv5gK1jnbmDMCDw=w2400'>
+        </div>
+        <div class='item -small -horizontal' data-scroll data-scroll-speed="4">
+            <img class='image' src='https://lh3.googleusercontent.com/EoYB96vzfqU3McYybltIoL1sZxERVf38_1inUVPbA4Tkh7Zh9bQteIxkLpCnZasU5GcJOg9saHUCrI8SsBegsiCpLHO0em0fSIre11xtjF9dTTDkW-MIUiSyTeNQWcZKSNrQd1eAgg=w2400'>
+        </div>
+        <div class='item -normal' data-scroll data-scroll-speed="3">
+            <img class='image' src='https://lh3.googleusercontent.com/iHZY2BvOiNSID4YJ5wuHCTfslkYuGNaOKTe7PxWIFCOAuvo7EhLVrG0Y9o_eeeVjOZqVcnDQEoPe-JQw3ff7niS6B2uIh4E_So0fltAVR_opW_gU8mBLpxtF9eYAny5K8jibGyrNWw=w2400'>
+        </div>
+        <div class='item -normal -horizontal' data-scroll data-scroll-speed="2">
+            <img class='image' src='https://lh3.googleusercontent.com/UPFl6JzoYfJ-TSGBdukqujJnzlFcqZucJfSCnI3rEGADnee9EY2WTvOsOVowKLHNnifuzAIffaDlj9rcJz_uPNIRq0zM1YkAk9Y7DSwC9zHVyc_SOvCKmEE3kAaEqweGtaZ3lBwVBQ=w2400'>
+        </div>
+        <div class='item -big -horizontal' data-scroll data-scroll-speed="4">
+            <img class='image' src='https://lh3.googleusercontent.com/ZS753vedCdldGoppsE8RzwxnhjY81sCms4YyJVJbHs5l-WRQpeQDAlIhpn-QOAjNnL_OI9MWKnWJTyI-y-X8IrAwJt8xKunEy49FiCJ6kGmORwGnPV--nGp6QQeR6RiQ1JkE9O55Lg=w2400'>
+        </div>
+        <div class='item -small' data-scroll data-scroll-speed="2">
+            <img class='image' src='https://lh3.googleusercontent.com/8ARH9GrD9s687wXQBtiCoc07k0V3ifMayJRytAEAhq-gmV4Ds4rUYjAWUXbWsrJjcNXT-dSoqrI6DCh8KolhIPAFib7IVOI8DKfV8rP9M5udhe4ddtlqQgd_b5TAGcwMAwX7cQCdRg=w2400'>
+        </div>
+        <div class='item -normal -horizontal' data-scroll data-scroll-speed="1">
+            <img class='image' src='https://lh3.googleusercontent.com/tnFuvfMNE64khQqMW1mfPYc68J6ULAhiWfXb60YtyxinrCgERZVRl2odVIoys-zW0y8-3Qbzv-_sup4PKVQA1VpHD6Xrq1vGG3fvD8rpmJssYcbSZk-oSMCzJy_z7D6a0JLL4cf7aw=w2400'>
+        </div>
+        <div class='item -small -horizontal' data-scroll data-scroll-speed="3">
+            <img class='image' src='https://lh3.googleusercontent.com/Xb1qj1JnM4RUnQ2yhe_CrOXEbvCFZHrizIvUueLV4wj8SxRazYBH3G5gEILj1jKD5p49ypL7EJKMch_oeuHUIvokrVm5UKFwg0ZmLL0gp9FPGyavCvVuLA8N9z3dq8N03twccjCOLA=w2400'>
+        </div>
+        <div class='item -big' data-scroll data-scroll-speed="1">
+            <img class='image' src='https://lh3.googleusercontent.com/E26T__OBfEX0kerZwQ0I-3rwf3mJqbOZ5YQxRYvY46sDuq0aSlOUa6VPw9-7frH_OP1X8J8oRCpkH_jnUtQ5CZeZyQx6rUAYXLK2P-eDeOx0E6tDUrWpARZP1-2xWWjv3KreohqA2A=w2400'>
+        </div>
+        
+        <div class='item -normal -horizontal' data-scroll data-scroll-speed="2">
+            <img class='image' src='https://lh3.googleusercontent.com/E26T__OBfEX0kerZwQ0I-3rwf3mJqbOZ5YQxRYvY46sDuq0aSlOUa6VPw9-7frH_OP1X8J8oRCpkH_jnUtQ5CZeZyQx6rUAYXLK2P-eDeOx0E6tDUrWpARZP1-2xWWjv3KreohqA2A=w2400'>
+        </div>
+        <div class='item -normal -horizontal' data-scroll data-scroll-speed="1">
+            <img class='image' src='https://lh3.googleusercontent.com/rlrAm-qDD-3x_ZeRo0tjpK6c3GC4HiYnHkjcn-lt4TmADoIJSdsxpJAgv2EW-bS3-7rlYhyT9BJne-vBzfRC1GjM4fLvOrNdqCGHSw0uCh7JqyxGkgs4FzBvR9-4IV1EHS_6VymwKg=w2400'>
+        </div>
+        <div class='item -small -horizontal' data-scroll data-scroll-speed="4">
+            <img class='image' src='https://lh3.googleusercontent.com/G19mZ6NpM4qAt4DD4MYaFHnZEEZm-5TXfqraenyN5XhTFTz-X83B66zqvMn7mgZojf681VrhOuT5VG1H6agAMaydh08ixljWVis1pFT7bHr21wFq7C4mPIHQeKEfw4RirwFq6WgrKg=s225-p-k'>
+        </div>
+        <div class='item -big' data-scroll data-scroll-speed="3">
+            <img class='image' src='https://lh3.googleusercontent.com/AwCFku70KctdHWJKyEBY7kzcpW0YYuj6k3LZqevEQdEtYtD-p51sUYJFn8dAzhckBInaOjU0iw06yRgdm6eVq0mr7qZQej_kmiDvL9ORhKcb-BQJPB5pYZdvi51FOL0uLl0hHj3Uew=s225-p-k'>
+        </div>
+        <div class='item -normal -horizontal' data-scroll data-scroll-speed="2">
+            <img class='image' src='https://lh3.googleusercontent.com/o2ce7saW9m59VYYx4iZ0DD6QRL3CqFPlZwCklTsNNL4DXuSt6XK_R0MjlbeOWidbOEoAIPq-udySdSKPsnvE0FxeKPKqc9nfieu53mWvAJVXpJT49WWzhqoLVnJIHmiMsBncfZmH_Q=s225-p-k'>
+        </div>
+
+    </div>
+</div>
+<form method="POST">
+    {% csrf_token %}
+    <button type="submit" name="home" value="home" class="btn"><i class="fa fa-home"></i></button>
+  </form>
+<!-- partial -->
+  <script  src="{% static 'gallery/script.js' %}"></script>
+
+</body>
+</html>

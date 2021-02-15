@@ -1,0 +1,361 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Paps-Vivz</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="112">
+  <meta name="keywords" content="global, template, html, sass, jquery">
+  <meta name="author" content="Vishesh Jain">
+  <link rel="apple-touch-icon" sizes="180x180" href="{% static 'index_home/favicon_io/apple-touch-icon.png' %}">
+  <link rel="icon" type="image/png" sizes="32x32" href="{% static 'index_home/favicon_io/favicon-32x32.png' %}">
+  <link rel="icon" type="image/png" sizes="16x16" href="{% static 'index_home/favicon_io/favicon-16x16.png' %}">
+  <link rel="manifest" href="{% static 'index_home/favicon_io/site.webmanifest' %}">
+  <link rel="stylesheet" href="{% static 'mainhome/assets/css/main.css' %}">
+  <link rel="stylesheet" href="{% static 'readbook/style.css' %}">
+  
+</head>
+<body>
+
+<!-- notification for small viewports and landscape oriented smartphones -->
+<div class="device-notification">
+  <a class="device-notification--logo" href="#0">
+    <img src="{% static 'mainhome/assets/img/logo.png' %}" alt="World">
+    <p>World</p>
+  </a>
+  <p class="device-notification--message">112 has so much to offer that we must request you orient your device to portrait or find a larger screen. You won't be disappointed.</p>
+</div>
+
+<div class="perspective effect-rotate-left">
+  <div class="container"><div class="outer-nav--return"></div>
+    <div id="viewport" class="l-viewport">
+      <div class="l-wrapper">
+        <header class="header">
+          <a class="header--logo" href="#0">
+            <img src="{% static 'mainhome/assets/img/logo.png' %}" alt="World">
+            <p>World</p>
+          </a>
+          <button class="header--cta cta">Explore</button>
+          <div class="header--nav-toggle">
+            <span></span>
+          </div>
+        </header>
+        <nav class="l-side-nav">
+          <ul class="side-nav">
+            <li class="is-active"><span>Home</span></li>
+            <li><span>Activity</span></li>
+            <li><span>Gallery</span></li>
+            <li><span>Our Music</span></li>
+            <li><span>Our Books & Comic Strips</span></li>
+           
+          </ul>
+        </nav>
+        <ul class="l-main-content main-content">
+          <li class="l-section section section--is-active">
+            <div class="intro">
+              <div class="intro--banner">
+                <h1>Your next<br>Bespoke<br>experience</h1>
+                <button class="cta">Explore
+                  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
+                  <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
+                    <path d="M870,1167c-34-17-55-57-46-90c3-15,81-100,194-211l187-185l-565-1c-431,0-571-3-590-13c-55-28-64-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z"/>
+                  </g>
+                  </svg>
+                  <span class="btn-background"></span>
+                </button>
+                <img src="{% static 'mainhome/assets/img/introduction-visual.png' %}" alt="Welcome">
+              </div>
+              <div class="intro--options">
+                <a href="#0">
+                  <h3>Spotify&amp; Playlist</h3>
+                  <p>Listen to the Paps & Vivz all time Favorite.</p>
+                </a>
+                <a href="#0">
+                  <h3>Gallery</h3>
+                  <p>Explore the Most beautiful arrangement of Paps & Vivs memories</p>
+                </a>
+                <a href="#0">
+                  <h3>Story &amp; Letters</h3>
+                  <p>Read the Most Bespoke Story-Letters for & by Paps-Vivz</p>
+                </a>
+              </div>
+            </div>
+          </li>
+          <li class="l-section section">
+            <div class="work">
+              <h2>Selected Activity</h2>
+              <div class="work--lockup">
+                <ul class="slider">
+                  <li class="slider--item slider--item-left">
+                    <a href="/activity/watchsunset">
+                      <div class="slider--item-image">
+                        <img src="{% static 'mainhome/assets/img/work-victory.jpg' %}" alt="Victory">
+                      </div>
+                      <p class="slider--item-title">Watch SunRise</p>
+                      <p class="slider--item-description">The Love they share couldn't be describe in words, However Nature resembels essence of their Love</p>
+                    </a>
+                  </li>
+                  <li class="slider--item slider--item-center">
+                    <a href="/activity/watchgallery">
+                      <div class="slider--item-image">
+                        <img src="{% static 'mainhome/assets/img/work-metiew-smith.jpg' %}" alt="Metiew and Smith">
+                      </div>
+                      <p class="slider--item-title">Love &amp; Memories</p>
+                      <p class="slider--item-description">They always had the most diversified taste of sweet & sour Memories</p>
+                    </a>
+                  </li>
+                  <li class="slider--item slider--item-right">
+                    <a href="/activity/watchmoon">
+                      <div class="slider--item-image">
+                        <img src="{% static 'mainhome/assets/img/work-alex-nowak.jpg' %}" alt="Alex Nowak">
+                      </div>
+                      <p class="slider--item-title">Watch Moon</p>
+                      <p class="slider--item-description">One of the Most beautiful part of our time is always watching the moon together</p>
+                    </a>
+                  </li>
+                </ul>
+                <div class="slider--prev">
+                  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                  viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
+                  <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
+                    <path d="M561,1169C525,1155,10,640,3,612c-3-13,1-36,8-52c8-15,134-145,281-289C527,41,562,10,590,10c22,0,41,9,61,29
+                    c55,55,49,64-163,278L296,510h575c564,0,576,0,597,20c46,43,37,109-18,137c-19,10-159,13-590,13l-565,1l182,180
+                    c101,99,187,188,193,199c16,30,12,57-12,84C631,1174,595,1183,561,1169z"/>
+                  </g>
+                  </svg>
+                </div>
+                <div class="slider--next">
+                  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
+                  <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
+                    <path d="M870,1167c-34-17-55-57-46-90c3-15,81-100,194-211l187-185l-565-1c-431,0-571-3-590-13c-55-28-64-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z"/>
+                  </g>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="l-section section">
+            <div class="about">
+              <div class="about--banner">
+                <h2>We<br>believe in<br>simple<br>& sweet<br>life</h2></h2>
+                <a href="#activity">Explore Our World
+                  <span>
+                    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
+                    <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
+                      <path d="M870,1167c-34-17-55-57-46-90c3-15,81-100,194-211l187-185l-565-1c-431,0-571-3-590-13c-55-28-64-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z"/>
+                    </g>
+                    </svg>
+                  </span>
+                </a>
+                <img src="{% static 'mainhome/assets/img/about-visual.png' %}" alt="About Us">
+              </div>
+              <div class="about--options" id="activity">
+                <a href="/activity/playbedroom">
+                  <h3>Play with Bedroom</h3>
+                </a>
+                <a href="/activity/readletters">
+                  <h3>Read Our Letters</h3>
+                </a>
+                <a href="/activity/timeline">
+                  <h3>Watch our Timeline</h3>
+                </a>
+              </div>
+            </div>
+          </li>
+          <li class="l-section section">
+            <div class="contact">
+              <div class="contact--lockup">
+                <div class="modal">
+                  
+                  <iframe src="https://open.spotify.com/embed/playlist/58J4Xc1ZqlAezzazjkbEaD" width="320" height="320" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                </div>
+              </div>
+            </div>
+          </li>
+
+<li class="l-section section">
+  <div class="hire">
+    
+<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+
+<section class="hero-section">
+  <div class="card-grid">
+    <a class="card" href="/openbook/ch1">
+      <div class="card__background" style="background-image: url(https://lh3.googleusercontent.com/MVaIEqmYqn7HSJT5vdYxtTmD_diEw_bk0X0Wby2Y5ty_eUyXSarGdwixYgLWrb3-GdqWqjqjmJb7VG0V-CfDZQNKRyplaq0ay9nvt1Gv0Na_XKndSXnrmcx6NYS9DiwXCjavoSMdaw=w2400)"></div>
+      <div class="card__content">
+        <p class="card__category">Chapter - 1</p>
+        <h3 class="card__heading">The Signals of Universe</h3>
+      </div>
+    </a>
+    <a class="card" href="#">
+      <div class="card__background" style="background-image: url(https://lh3.googleusercontent.com/SRzZLSdxCUvA9cGpKWHOiZEMiL04JwVI80b3TpNAfQg-lCT7jlPCpj2AVS8Q5lcu5RfZCP1nQb1omGSbdc0P1CexSknWdLD3ezaSIuM9gFhyIutCwiglc5TJ_z-fw9H0eUwVxHlz9w=w2400)"></div>
+      <div class="card__content">
+        <p class="card__category">Chapter -2</p>
+        <h3 class="card__heading">When The Stars Allign</h3>
+      </div>
+    </a>
+    <a class="card" href="#">
+      <div class="card__background" style="background-image: url(https://lh3.googleusercontent.com/2VS_Bm5VsFV2ct3ybmtXUeIkrvkPaHrDMYkrB0gaSRRvcaq8vwHxSZyOfvb6tjvWhrHrgwlLeo3CLjq0uCidaj0iwq7cy5gWQZLPtg3ifZmNmcIvWfnABfiZ5S6dHqxN7-lN9yaplg=w2400)"></div>
+      <div class="card__content">
+        <p class="card__category">Chapter - 3</p>
+        <h3 class="card__heading">Moon, you & me</h3>
+      </div>
+    
+    <a class="card" href="#">
+      <div class="card__background" style="background-image: url(https://lh3.googleusercontent.com/3AMQTYCzZf0XgRVnkqwq0E8lqD-2NzqGWGBhRSKMdPhqJI7AEepOdxa3LQNXgYUqE4gczjq5yeTC30eddUxYbpvHEWubYFfPvvl_ya3NbnHhlb0LP7QTg72_sfGVg8XhjgcDZGKqug=w2400)"></div>
+      <div class="card__content">
+        <p class="card__category">Chapter - 4</p>
+        <h3 class="card__heading">The Lights of Love</h3>
+      </div>
+    </a>
+    <a class="card" href="#">
+      <div class="card__background" style="background-image: url(https://lh3.googleusercontent.com/kYH7fr1N5bCj5XngDQwjlyBAfBs2-1QgsUKAI8JUCwoDHXvfhSulN8SQMGN8q_sFs9eiZrrNd60U0CX0VtA45TbcWH8yQP0T5cAcy29Oo0bnKJp8au6QBVzaMwkxiySgOzz_qm6kqQ=w2400)"></div>
+      <div class="card__content">
+        <p class="card__category">Chapter -5</p>
+        <h3 class="card__heading">The Vows of Love</h3>
+      </div>
+    </a>
+
+    <a class="card" href="#">
+      <div class="card__background" style="background-image: url(https://lh3.googleusercontent.com/BxOV7LAMQ2XsVt5ukiMtKSeR6NW6Q_RYhjc9-pU8TEARmnQt7jnkuP0AqmpS2jEFaMFmXTJEO4XWpIWxE5NM6Frjaj_71ZMrbNitMCHF9mqHlnUZBjFfXWcLAJqyL2jD-lZDsA_l5w=w2400)"></div>
+      <div class="card__content">
+        <p class="card__category">Chapter - 6</p>
+        <h3 class="card__heading">Love from a distance</h3>
+      </div>
+    </a>
+    <a class="card" href="#">
+      <div class="card__background" style="background-image: url(https://lh3.googleusercontent.com/FgWWZnkC5jfN_AXPwgQ4TZteMidwfZ8hvG4X3qn_GeuvykGH0rNWZi-6PTI_6Mk3N0m0olwkAsScNo28-htGB3ED3cHEl7TLOviOH8moe8f416VmocTkfnsEQo3TLQjYHDQoZsQdnw=w2400)"></div>
+      <div class="card__content">
+        <p class="card__category">Chapter - 7</p>
+        <h3 class="card__heading">The Heart Fog</h3>
+      </div>
+    </a>
+    <a class="card" href="#">
+      <div class="card__background" style="background-image: url(https://lh3.googleusercontent.com/s24nurm0TSogmpltWC4pXqT-VeS-mt7c_FrCO1u_o5vtQXQIiew9Gju42xTFfVic2j1GWqZaLzG78lWPZba_hY5J-cB7t7buqGENlsxhghL8G7NFJrjRnJyHkYNFWvCXw7mkauPQUA=w2400)"></div>
+      <div class="card__content">
+        <p class="card__category">Chapter - 8</p>
+        <h3 class="card__heading">Hey Sugar, Miss you</h3>
+      </div>
+    </a>
+
+    <a class="card" href="#">
+      <div class="card__background" style="background-image: url(https://lh3.googleusercontent.com/AiPBo4L3IOr2N-0kzlFEWsnaVPbt0sGWA00ByVvneaboBYXqDTDyfXhULxgol_EjQlo3xqLVgMvJsi3aa1naapqYjwE2u6iQ7CbsdFSc9XPrnmilCwWzJi66EdgycWE5RAm1eYAv5g=w2400)"></div>
+      <div class="card__content">
+        <p class="card__category">Comic Strips</p>
+        <h3 class="card__heading">112</h3>
+      </div>
+    </a>
+    
+  <div>
+</section>
+    <!--
+    <iframe src="https://open.spotify.com/embed/playlist/58J4Xc1ZqlAezzazjkbEaD" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+    
+    <h2>You want us to do</h2>
+   checkout formspree.io for easy form setup 
+    <form class="work-request">
+      <div class="work-request--options">
+        <span class="options-a">
+          <input id="opt-1" type="checkbox" value="app design">
+          <label for="opt-1">
+            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+            viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
+            <g transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
+              <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
+            </g>
+            </svg>
+            App Design
+          </label>
+          <input id="opt-2" type="checkbox" value="graphic design">
+          <label for="opt-2">
+            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+            viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
+            <g transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
+              <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
+            </g>
+            </svg>
+            Graphic Design
+          </label>
+          <input id="opt-3" type="checkbox" value="motion design">
+          <label for="opt-3">
+            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+            viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
+            <g transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
+              <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
+            </g>
+            </svg>
+            Motion Design
+          </label>
+        </span>
+        <span class="options-b">
+          <input id="opt-4" type="checkbox" value="ux design">
+          <label for="opt-4">
+            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+            viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
+            <g transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
+              <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
+            </g>
+            </svg>
+            UX Design
+          </label>
+          <input id="opt-5" type="checkbox" value="webdesign">
+          <label for="opt-5">
+            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+            viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
+            <g transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
+              <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
+            </g>
+            </svg>
+            Webdesign
+          </label>
+          <input id="opt-6" type="checkbox" value="marketing">
+          <label for="opt-6">
+            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+            viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
+            <g transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
+              <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
+            </g>
+            </svg>
+            Marketing
+          </label>
+        </span>
+      </div>
+      <div class="work-request--information">
+        <div class="information-name">
+          <input id="name" type="text" spellcheck="false">
+          <label for="name">Name</label>
+        </div>
+        <div class="information-email">
+          <input id="email" type="email" spellcheck="false">
+          <label for="email">Email</label>
+        </div>
+      </div>
+      <input type="submit" value="Send Request">
+    </form>-->
+  </div>
+</li>
+</ul>
+</div>
+</div>
+  </div>
+
+
+<ul class="outer-nav">
+
+
+  <li class="is-active">Home</li>
+  <li>Activity</li>
+  <li>Gallery</li>
+  <li>Our Music</li>
+  <li>Our Books & Comic Strips</li>
+
+</ul>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="{% static "mainhome/assets/js/vendor/jquery-2.2.4.min.js" }"><\/script>')</script>
+<script src="{% static 'mainhome/assets/js/functions-min.js' %}"></script>
+</body>
+</html>
